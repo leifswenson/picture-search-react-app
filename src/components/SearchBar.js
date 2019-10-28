@@ -23,7 +23,7 @@ class SearchBar extends Component {
           <div className='field'>
             <label>Image Search</label>
             <input
-              name='searchTerm'
+              name='term'
               type='text'
               value={this.state.term}
               onChange={this.onInputChange}
